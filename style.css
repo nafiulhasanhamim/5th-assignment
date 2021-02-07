@@ -1,0 +1,38 @@
+
+
+#food{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#foodList{
+   margin-right: 10px;
+}
+#error{
+    text-align: center;
+    display: none;
+    color:red;
+}
+
+.mealList{
+    text-align: center;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+img{
+    width:100%;
+    border-radius: 12px;
+}
+
+.mealDetails img{
+    border-radius: 10px;
+    height: 350px;
+    width:35%;
+}
+
+ul {
+    list-style: none;
+}
+i{
+    margin-right: 5px;
+}
